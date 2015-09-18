@@ -1,0 +1,21 @@
+
+
+
+ 
+.Red {
+background-color: red;
+border: 5px solid black;
+width: 10em;
+height: 10em;
+margin: 10px auto;
+color: white;
+    }
+
+   .Green {
+background-color: green;
+border: 5px solid black;
+width: 10em;
+height: 10em;
+margin: 0 auto;
+color: white;
+}  
