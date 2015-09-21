@@ -1,15 +1,20 @@
-.Block1 {
+.Square1 {
 background-color: grey;
 width: 10em;
-height: 10em;
+height: 10em; 	
 border: 10em;
-margin: 0 auto;
 }
 
-.Block2 {
+.Square2 {
 background-color: grey;
 width: 10em;
 height: 10em;
 border: 10em;
-margin: 0 auto;
 }
+
+body {
+	color:white;
+}
+
+
+    

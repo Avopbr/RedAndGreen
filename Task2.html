@@ -8,15 +8,30 @@
 
 </head>
 <body>
-
-<div class="Block1"></div>
+<div class="Square1"></div>
 <button type="button" onClick="changecolor1()">Make Red</button>
-<div class="Block2"></div>	
+
+<div class="Square2"></div>
 <button type="button" onClick="changecolor2()">Make Green</button>
 
 <script type="text/javascript">
-document.getElementsByClassName('Red');
+function changecolor1() {
+
+	var Square1=document.getElementsByClassName("Square1");
+	i = Square1.length;
+	while(i--) {
+Square1[i].style.backgroundColor="red";
 }
+}
+
+function changecolor2() {
+
+var Square2=document.getElementsByClassName("Square2")
+i = Square2.length;
+while(i--) {
+	Square2[i].style.backgroundColor="green";
+}
+} 
 </script>
 </body>
 </html>
