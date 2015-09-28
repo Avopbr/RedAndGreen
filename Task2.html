@@ -1,37 +1,32 @@
 <DOCTYPE html>
-<html>
-<head>
+	<html>
+	<head>
+		<title>Coloring The Blocks</title>
+		<link rel="stylesheet" type="text/css" href="Task2.css">
+	</head>
+	<body>
 
-<title>Colouring The Blocks</title>
+	<div id="redBlock" class="grey"></div>
+	<button id="redButton">Make Red</button>
 
-<link rel="stylesheet" type="text/css" href="Task2.css">
+	<div id="greenBlock" class="grey"></div>
+	<button id="greenButton">Make Green</button>
 
-</head>
-<body>
-<div class="Square1"></div>
-<button type="button" onClick="changecolor1()">Make Red</button>
+	<script type="text/javascript">
+	  var redbutton = document.getElementById('redButton');
+	  redButton.addEventListener('click', function () {
+	  var redBlock = document.getElementById('redBlock');
+	  redBlock.className = "red"; 	
+	  });
 
-<div class="Square2"></div>
-<button type="button" onClick="changecolor2()">Make Green</button>
+	  var greenbutton = document.getElementById('greenButton');
+	  greenButton.addEventListener('click', function () {
+	  var greenBlock = document.getElementById('greenBlock');
+	  greenBlock.className = "green"; 	
+	  });
 
-<script type="text/javascript">
-function changecolor1() {
 
-	var Square1=document.getElementsByClassName("Square1");
-	i = Square1.length;
-	while(i--) {
-Square1[i].style.backgroundColor="red";
-}
-}
+	</script>
 
-function changecolor2() {
-
-var Square2=document.getElementsByClassName("Square2")
-i = Square2.length;
-while(i--) {
-	Square2[i].style.backgroundColor="green";
-}
-} 
-</script>
-</body>
-</html>
+	</body>
+	</html>
