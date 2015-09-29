@@ -1,13 +1,13 @@
  var redbutton = document.getElementById('redButton');
 	  redButton.addEventListener('click', function () {
       var block = document.getElementById('block');
-      document.getElementById('block').innerHTML = "stop";
-	  block.className = "red"; 	
+      block.innerHTML = "stop";
+	  block.className = "redButton"; 	
 	  });
 
 	  var greenbutton = document.getElementById('greenButton');
 	  greenButton.addEventListener('click', function () {
 	  var block = document.getElementById('block')
-	   document.getElementById('block').innerHTML = "go"; 
-	  block.className = "green"; 	
+	  block.innerHTML = "go"; 
+	  block.className = "greenButton"; 	
 	  	  	  });""
