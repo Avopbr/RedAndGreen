@@ -9,5 +9,6 @@
 	  greenButton.addEventListener('click', function () {
 	  var block = document.getElementById('block');
 	  block.innerHTML = "go"; 
-	  block.className = "green"; 	
+	  block.className = "green"; 
+	  });	
 	 
