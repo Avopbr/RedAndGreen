@@ -1,0 +1,32 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		<title>Coloring The Blocks</title>
+		<link rel="stylesheet" type="text/css" href="Task2.css">
+	</head>
+	<body>
+
+	<div id="redBlock" class="grey">stop</div>
+	<button id="redButton">Make Red</button>
+
+	<div id="greenBlock" class="grey">go</div>
+	<button id="greenButton">Make Green</button>
+
+	<script type="text/javascript">
+	  var redbutton = document.getElementById('redButton');
+	  redButton.addEventListener('click', function () {
+	  var redBlock = document.getElementById('redBlock');
+	  redBlock.className = "red"; 	
+	  });
+
+	  var greenbutton = document.getElementById('greenButton');
+	  greenButton.addEventListener('click', function () {
+	  var greenBlock = document.getElementById('greenBlock');
+	  greenBlock.className = "green"; 	
+	  });
+
+
+	</script>
+
+	</body>
+	</html>

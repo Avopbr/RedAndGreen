@@ -1,0 +1,27 @@
+.grey {
+background: grey;
+width: 10em;
+height: 10em; 	
+border: 10em;
+}
+
+.red {
+background: red;
+width: 10em;
+height: 10em; 	
+border: 10em;
+}
+
+.green {
+background: green;
+width: 10em;
+height: 10em;
+border: 10em;
+}
+
+body {
+	color:white;
+}
+
+
+    
