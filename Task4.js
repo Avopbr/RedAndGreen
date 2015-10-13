@@ -1,22 +1,21 @@
+var myButton = document.getElementById('button');
+var count = 0;
+var myBlock = document.getElementById('block');
 
-/*function change( el )
-{
-    if ( el.value === "Make red" )
-        el.value = "Make green";
-    else
-        el.value = "Make red";
-}*/
+myButton.addEventListener('click', function() {
+	count += 1;
+		switch(count) {
+			case 1 :
+			myBlock.className = "red";
+			myBlock.innerHTML = "stop";
+			myButton.innerHTML = "Make green";
+			break;
 
-var button = document.getElementById('button') {
-button.innerHTML = "efefef";
-}
-
-var block = document.getElementById('block');
-block.innerHTML = "stop";
-block.className = "red";	 
-   
-
-var block1 = document.getElemenstByClassName('block1');
-fish.innerHTML = "go";
-fish.className = "green";	 
-
+			case 2 :
+			myBlock.className = "green";
+			myBlock.innerHTML = "go";
+			myButton.innerHTML = "Make red";
+			count = 0;
+			break;
+		}		
+});
