@@ -1,0 +1,20 @@
+.failing {
+background: red;
+width: 10em;
+height: 10em; 	
+border: 10em;
+}
+
+.grey {
+background: grey;
+width: 10em;
+height: 10em; 	
+border: 10em;
+}
+
+.passing {
+background: green;
+width: 10em;
+height: 10em; 	
+border: 10em;
+}
