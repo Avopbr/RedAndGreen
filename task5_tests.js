@@ -9,7 +9,6 @@ if (testresult.className === "grey") {
 else {
  console.log("The testresult class passes");
 }
-
 //Check that the button has the text 'Make failing'. 
 //Use console.log to display a message that tells you what the result of the check was.. 
 var myButton = document.getElementById("button")
