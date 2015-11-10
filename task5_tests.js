@@ -66,7 +66,7 @@ else {
 //Display 'success' if testresult has the class passing, otherwise display 'failure'.
 
 if (testresult.className === "passing" ) {
-	console.log("success");
+	console.log("Success");
 }
 else {
 	console.log("failure");
